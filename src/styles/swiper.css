@@ -1,0 +1,10 @@
+#wrap .swiper-slide img {
+  width: 100%;
+}
+#wrap .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--color-n-80);
+}
+#wrap .swiper-button-prev,
+#wrap .swiper-button-next {
+  color: var(--color-n-80);
+}
