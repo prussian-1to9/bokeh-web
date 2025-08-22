@@ -11,10 +11,11 @@ const LoadingPage: React.FC = () => {
         <span>BOKEH 인스타그램에서 최근 게시물을 확인해 보세요!</span>
         <div className="flex gap-2">
           <Link
-            className="bg-gray-900 text-white p-2 px-4 rounded hover:bg-gray-700 transition-colors"
+            className="from-pink-600 via-violet-600 to-purple-600 bg-gradient-to-r text-white p-2 px-4 rounded
+            hover:from-yellow-200 hover:via-orange-400 hover:to-pink-600 hover:text-purple-950 transition-all"
+            to="https://www.instagram.com/bokeh.co.kr/"
             target="_blank"
             rel="noopener noreferrer"
-            to="https://www.instagram.com/bokeh.co.kr/"
           >
             인스타그램 바로가기
           </Link>
